@@ -10,12 +10,16 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-0": { "Gufran/eBay": "eBayApi" }
+        "psr-4": { "Gufran\\EBay\\": "eBayApi" }
     },
     "require": {
         "dts/ebay-sdk": "~0.0.0",
         "dts/ebay-sdk-finding": "~0.0.0",
         "dts/ebay-sdk-trading": "~0.0.0",
         "dts/ebay-sdk-shopping": "~0.0.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*@dev",
+        "phpunit/phpunit": "4.2.*@dev"
     }
 }

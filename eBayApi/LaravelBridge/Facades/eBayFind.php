@@ -4,6 +4,6 @@ use Illuminate\Support\Facades\Facade;
 
 class eBayFind extends Facade {
 
-	protected function getFacadeAccessor() { return 'ebay.service.find'; }
+	protected static function getFacadeAccessor() { return 'ebay.service.find'; }
 
-} 
+}

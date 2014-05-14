@@ -1,4 +1,4 @@
-<?php namespace Gufran\LaravelBridge\Facades;
+<?php namespace Gufran\Ebay\LaravelBridge\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

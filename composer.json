@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": { "Gufran\\EBay\\": "eBayApi" }
+        "psr-4": { "Gufran\\EBay\\": "src" }
     },
     "require": {
         "dts/ebay-sdk": "~0.0.0",
